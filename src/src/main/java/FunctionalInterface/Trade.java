@@ -9,6 +9,8 @@ public class Trade {
     private String issuer;
     private int quantity;
 
+    public Trade() {}
+
     public Trade(String status, String issuer, int quantity) {
         this.status = status;
         this.issuer = issuer;
