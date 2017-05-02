@@ -5,7 +5,7 @@ package Singleton;
  */
 
 /* this method doesn’t provide any options for exception handling. */
-public class EagerInitializedSingleton{
+public class EagerInitializedSingleton {
     private static final EagerInitializedSingleton instance = new EagerInitializedSingleton();
 
     //private constructor to avoid client applications to use constructor
@@ -22,9 +22,9 @@ public class EagerInitializedSingleton{
         quantity += amount;
     }
 
-    public synchronized void remove(int amount){
+    public synchronized void remove(int amount) throws Exception{
         if(quantity < amount){
-            throw new RuntimeException("Exception occured in creating singleton instance");
+            throw new Exception("Exception occured in creating singleton instance");
         }
         quantity -= amount;
     }
