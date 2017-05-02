@@ -20,6 +20,12 @@ public class SerializedSingleton implements Serializable{
         return SingletonHelper.instance;
     }
 
+    /**
+     * Special hook provided by serialization where developer can control what object needs to sent.
+     * However this method is invoked on the new object instance created by de serialization process.
+     * @return
+     * @throws ObjectStreamException
+     */
     protected Object readResolve() throws ObjectStreamException {
         return getInstance();
     }
