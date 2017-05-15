@@ -43,6 +43,8 @@ public class Dog {
     public String toString() {
         return "Dog{" +
                 "name='" + name + '\'' +
+                ", weight=" + weight +
+                ", type='" + type + '\'' +
                 '}';
     }
 }
