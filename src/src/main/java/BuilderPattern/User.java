@@ -1,4 +1,4 @@
-package BuilderPattern;
+package src.main.java.BuilderPattern;
 
 /**
  * Created by siyu on 5/3/2017.

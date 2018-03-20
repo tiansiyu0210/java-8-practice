@@ -1,4 +1,4 @@
-package Compare.Comparetor;
+package src.main.java.Compare.Comparetor;
 
 /**
  * Created by siyu on 5/15/2017.

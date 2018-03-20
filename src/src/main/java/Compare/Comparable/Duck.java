@@ -1,6 +1,7 @@
-package Compare.Comparable;
+package src.main.java.Compare.Comparable;
 
-import org.jetbrains.annotations.NotNull;
+
+import com.sun.istack.internal.NotNull;
 
 /**
  * Created by siyu on 5/11/2017.

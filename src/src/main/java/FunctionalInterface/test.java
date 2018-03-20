@@ -1,4 +1,4 @@
-package FunctionalInterface;
+package src.main.java.FunctionalInterface;
 
 import java.util.ArrayList;
 import java.util.List;
