@@ -1,4 +1,4 @@
-package Generic.Bounds;
+package src.main.java.Generic.Bounds;
 
 import com.sun.org.apache.xpath.internal.SourceTree;
 
@@ -28,6 +28,12 @@ public class boundsApp {
         System.out.println(lowerBounds(aList));
         System.out.println(lowerBounds(superAList));
         //System.out.println(lowerBounds(subAList)); wrong
+        System.out.println("=====================Instance of=====================");
+        A a = new A();
+        SubA subA = new SubA();
+        System.out.println(a instanceof SubA);
+        System.out.println(subA instanceof SubA);
+        System.out.println(subA instanceof A);
     }
 
     private static int upperBounds(List<? extends A> list){

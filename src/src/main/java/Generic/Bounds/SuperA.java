@@ -1,4 +1,4 @@
-package Generic.Bounds;
+package src.main.java.Generic.Bounds;
 
 /**
  * Created by siyu on 5/9/2017.
