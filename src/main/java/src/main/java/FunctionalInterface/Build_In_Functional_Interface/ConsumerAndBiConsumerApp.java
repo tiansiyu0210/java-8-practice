@@ -14,7 +14,7 @@ import java.util.function.Consumer;
  * Created by stian on 4/6/18.
  */
 //consumer 1 in 0 out
-//biConsumer 2 in 0 out
+//BiConsumer 2 in 0 out
 //accept(T)   accept(K, V)
 public class ConsumerAndBiConsumerApp {
     public static void main(String[] args) {
