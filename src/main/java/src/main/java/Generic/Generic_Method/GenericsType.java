@@ -1,4 +1,4 @@
-package Generic.Generic_Method;
+package src.main.java.Generic.Generic_Method;
 
 /**
  * Created by siyu on 5/9/2017.

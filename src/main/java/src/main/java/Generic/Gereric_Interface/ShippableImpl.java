@@ -1,5 +1,7 @@
 package Generic.Gereric_Interface;
 
+import src.main.java.Generic.Gereric_Interface.*;
+
 /**
  * Created by siyu on 5/9/2017.
  */
