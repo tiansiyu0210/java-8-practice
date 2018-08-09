@@ -9,6 +9,8 @@ public class SingleExecutorServiceExample {
     public static void main(String[] args) {
         ExecutorService service = null;
         try{
+
+            //order is guaranteed
             System.out.println("begin");
             service = Executors.newSingleThreadExecutor();
             service.execute(()-> System.out.println("printing inventory"));
