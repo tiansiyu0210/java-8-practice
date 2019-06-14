@@ -78,7 +78,10 @@ intern() method
 
 -[Inner class](https://www.geeksforgeeks.org/inner-class-java/)
 > [tutorial 1](https://www.baeldung.com/java-nested-classes)
-> []
+
+- [generics](https://www.geeksforgeeks.org/generics-in-java/)
+> [tutorial 1](https://stackoverflow.com/questions/3486689/java-bounded-wildcards-or-bounded-type-parameter)
+> [tutorial 2](http://www.runoob.com/java/java-generics.html)
 
 
 
