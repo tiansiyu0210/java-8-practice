@@ -71,3 +71,9 @@
     ```
   
 - String
+intern() method
+
+- [protected](https://blog.csdn.net/jinyongqing/article/details/19756291)
+
+
+
