@@ -71,19 +71,104 @@
     ```
   
 - String
-intern() method
 
-- [protected](https://blog.csdn.net/jinyongqing/article/details/19756291)
+java 8
+```java
+public final class String implements java.io.Serializable, Comparable<String>, CharSequence {
+    /** The value is used for character storage. */
+    private final char value[];
+}
+```
+
+java 9
+```java
+public final class String implements java.io.Serializable, Comparable<String>, CharSequence {
+    /** The value is used for character storage. */
+    private final byte[] value;
+
+    /** The identifier of the encoding used to encode the bytes in {@code value}. */
+    private final byte coder;
+}
+```
+
+  - String, StringBuffer and StringBuilder
+  
+    [String, StringBuffer, and StringBuilder](https://stackoverflow.com/questions/2971315/string-stringbuffer-and-stringbuilder)
+ 
+ - String Pool
+ 
+ [intern() method](https://www.geeksforgeeks.org/interning-of-string/)
+ 
+    - When the intern() method is executed then it checks whether the String equals to this String Object is in the pool or not.
+    - If it is available, then the string from the pool is returned. Otherwise, this String object is added to the pool and a reference to      this String object is returned.
+    - It follows that for any two strings s and t, s.intern() == t.intern() is true if and only if s.equals(t) is true.
+  
+  ```java
+  class GFG {  
+    public static void main(String[] args)  
+    {  
+        // S1 refers to Object in the Heap Area  
+        String s1 = new String("GFG"); // Line-1  
+  
+        // S2 refers to Object in SCP Area 
+        String s2 = s1.intern(); // Line-2  
+          
+        // Comparing memory locations 
+        // s1 is in Heap 
+        // s2 is in SCP 
+        System.out.println(s1 == s2); //false
+          
+        // Comparing only values 
+        System.out.println(s1.equals(s2)); //true
+          
+        // S3 refers to Object in the SCP Area  
+        String s3 = "GFG"; // Line-3  
+  
+        System.out.println(s2 == s3);  //true
+    }  
+}  
+```
+
+```java
+class GFG {  
+    public static void main(String[] args)  
+    {  
+        // S1 refers to Object in the Heap Area  
+        String s1 = new String("GFG"); // Line-1  
+  
+        // S2 now refers to Object in SCP Area  
+        String s2 = s1.concat("GFG"); // Line-2  
+  
+        // S3 refers to Object in SCP Area 
+        String s3 = s2.intern(); // Line-3  
+  
+        System.out.println(s2 == s3);  // true
+  
+        // S4 refers to Object in the SCP Area  
+        String s4 = "GFGGFG"; // Line-4  
+  
+        System.out.println(s3 == s4);  //true
+    }  
+}  
+```
+
+> Explanation : We use intern() method to get the reference of corresponding SCP Object. In this case, when Line-2 executes s2 will have the value “GFGGFG” in it only creates one object. In Line-3, we try to intern s3 which is again with s2 in SCP area. s4 is also in SCP so all give output as true when compared.
+  
+- Static
+
+1.父类（静态变量、静态语句块）
+
+2.子类（静态变量、静态语句块）
+
+3.父类（实例变量、普通语句块）
+
+4.父类（构造函数）
+
+5.子类（实例变量、普通语句块）
+
+6.子类（构造函数）
 
 
--[Inner class](https://www.geeksforgeeks.org/inner-class-java/)
-> [tutorial 1](https://www.baeldung.com/java-nested-classes)
+- Exception
 
-- [generics](https://www.geeksforgeeks.org/generics-in-java/)
-> [tutorial 1](https://stackoverflow.com/questions/3486689/java-bounded-wildcards-or-bounded-type-parameter)
-> [tutorial 2](http://www.runoob.com/java/java-generics.html)
-
-
-
-
-
+![alt text](https://github.com/CyC2018/CS-Notes/blob/master/notes/pics/PPjwP.png)
