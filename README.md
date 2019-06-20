@@ -172,3 +172,8 @@ class GFG {
 - Exception
 
 ![alt text](https://github.com/CyC2018/CS-Notes/blob/master/notes/pics/PPjwP.png)
+
+
+- Collection
+
+![alt_text](https://github.com/CyC2018/CS-Notes/raw/master/notes/pics/73403d84-d921-49f1-93a9-d8fe050f3497.png)
