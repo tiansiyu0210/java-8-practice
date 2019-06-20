@@ -177,3 +177,21 @@ class GFG {
 - Collection
 
 ![alt_text](https://github.com/CyC2018/CS-Notes/raw/master/notes/pics/73403d84-d921-49f1-93a9-d8fe050f3497.png)
+
+## Set
+
+- [TreeSet vs HashSet](https://stackoverflow.com/questions/25602382/java-hashset-vs-treeset-when-should-i-use-over-other/25602519)
+
+- [TreeSet](https://www.callicoder.com/java-treeset/)
+
+- [HashSet,TreeSet和LinkedHashSet的区别](https://www.cnblogs.com/Terry-greener/archive/2011/12/02/2271707.html)
+
+## List
+
+- [ArrayList vs LinkedList vs Vector](https://medium.com/@gilangkusumajati/arraylist-vs-linkedlist-vs-vector-22e1721a66b0)
+
+- [ArrayList vs LinkedList](https://beginnersbook.com/2013/12/difference-between-arraylist-and-linkedlist-in-java/)
+
+
+## Queue
+- [priorityqueue](https://www.callicoder.com/java-priority-queue/);
