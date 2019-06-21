@@ -195,3 +195,28 @@ class GFG {
 
 ## Queue
 - [priorityqueue](https://www.callicoder.com/java-priority-queue/);
+
+## Map
+
+![map](https://github.com/CyC2018/CS-Notes/raw/master/notes/pics/774d756b-902a-41a3-a3fd-81ca3ef688dc.png)
+
+- [concurrenthashmap](https://www.cnblogs.com/yangming1996/p/8031199.html)
+
+- [concurrenthashmap 2](https://www.baeldung.com/java-concurrent-map)
+
+- Array to List
+
+```java
+Integer[] arr = {1, 2, 3};
+List list = Arrays.asList(arr);
+```
+
+```
+List list = Arrays.asList(1, 2, 3);
+```
+
+
+
+## mutiplthread
+
+![thread state](https://github.com/CyC2018/CS-Notes/raw/master/notes/pics/adfb427d-3b21-40d7-a142-757f4ed73079.png)
