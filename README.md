@@ -222,3 +222,21 @@ List list = Arrays.asList(1, 2, 3);
 ![thread state](https://github.com/CyC2018/CS-Notes/raw/master/notes/pics/adfb427d-3b21-40d7-a142-757f4ed73079.png)
 
 - [Threads and Executors](https://winterbe.com/posts/2015/04/07/java8-concurrency-tutorial-thread-executor-examples/)
+
+- [Java Concurrency Interview Questions (+ Answers)](https://www.baeldung.com/java-concurrency-interview-questions)
+
+- [sleep](https://codeday.me/bug/20190223/689159.html)
+
+[sleep 2](https://codeday.me/bug/20190223/689159.html)
+
+- [InterruptedException](https://medium.com/@thaipd/interruptexception-in-java-85483e3c7243)
+
+[InterruptedException 2](https://lucumt.info/post/translate/dealing-with-interrupted-exception/)
+
+- [interrupt](https://www.cnblogs.com/onlywujun/p/3565082.html)
+
+- [ExecutorService](https://www.baeldung.com/java-executor-service-tutorial)
+
+- [future](https://blog.csdn.net/dabing69221/article/details/17595031)
+
+- []
