@@ -224,7 +224,8 @@ List list = Arrays.asList(1, 2, 3);
 - [Threads and Executors](https://winterbe.com/posts/2015/04/07/java8-concurrency-tutorial-thread-executor-examples/)
 
 - [Java Concurrency Interview Questions (+ Answers)](https://www.baeldung.com/java-concurrency-interview-questions)
-  [Top 15 Java Multithreading, Concurrency Interview Questions With Investment Banks](https://www.baeldung.com/java-concurrent-locks)
+
+  [Top 15 Java Multithreading, Concurrency Interview Questions With Investment Banks](https://dzone.com/articles/top-15-java-multithreading-concurrency-interview-q)
 
 - [sleep](https://codeday.me/bug/20190223/689159.html)
 
@@ -249,4 +250,18 @@ List list = Arrays.asList(1, 2, 3);
 
 - [sleep vs wait vs yield](https://javarevisited.blogspot.com/2011/12/difference-between-wait-sleep-yield.html)
 
-- []
+- [Atomic Operations](https://stackoverflow.com/questions/16729364/atomic-operations-and-multithreading)
+
+- [volatile](https://www.hollischuang.com/archives/2648)
+  
+  [volatile 2](https://yuweiguocn.github.io/java-volatile/)
+  
+  [volatile 3](https://www.baeldung.com/java-volatile)
+  
+- [Race Condition](https://netjs.blogspot.com/2015/06/race-condition-in-java-multi-threading.html)
+
+- [thread dump](https://juejin.im/post/5b31b510e51d4558a426f7e9)
+  
+  [thread dump 2](https://helpx.adobe.com/nz/experience-manager/kb/TakeThreadDump.html)
+  
+- [CyclicBarrier vs CountDownLatch](https://www.baeldung.com/java-cyclicbarrier-countdownlatch)
