@@ -246,3 +246,7 @@ List list = Arrays.asList(1, 2, 3);
   [join() 2](https://juejin.im/post/5b3054c66fb9a00e4d53ef75)
   
 - [lock interface](https://www.baeldung.com/java-concurrent-locks)
+
+- [sleep vs wait vs yield](https://javarevisited.blogspot.com/2011/12/difference-between-wait-sleep-yield.html)
+
+- []
