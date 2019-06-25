@@ -174,35 +174,38 @@ class GFG {
 ![alt text](https://github.com/CyC2018/CS-Notes/blob/master/notes/pics/PPjwP.png)
 
 
-- Collection
+## Collection
 
 ![alt_text](https://github.com/CyC2018/CS-Notes/raw/master/notes/pics/73403d84-d921-49f1-93a9-d8fe050f3497.png)
 
-## Set
+- [interview questions](https://www.baeldung.com/java-collections-interview-questions)
 
-- [TreeSet vs HashSet](https://stackoverflow.com/questions/25602382/java-hashset-vs-treeset-when-should-i-use-over-other/25602519)
+- Set
 
-- [TreeSet](https://www.callicoder.com/java-treeset/)
+  - [TreeSet vs HashSet](https://stackoverflow.com/questions/25602382/java-hashset-vs-treeset-when-should-i-use-over-other/25602519)
 
-- [HashSet,TreeSet和LinkedHashSet的区别](https://www.cnblogs.com/Terry-greener/archive/2011/12/02/2271707.html)
+  - [TreeSet](https://www.callicoder.com/java-treeset/)
 
-## List
+  - [HashSet,TreeSet和LinkedHashSet的区别](https://www.cnblogs.com/Terry-greener/archive/2011/12/02/2271707.html)
 
-- [ArrayList vs LinkedList vs Vector](https://medium.com/@gilangkusumajati/arraylist-vs-linkedlist-vs-vector-22e1721a66b0)
+- List
 
-- [ArrayList vs LinkedList](https://beginnersbook.com/2013/12/difference-between-arraylist-and-linkedlist-in-java/)
+  - [ArrayList vs LinkedList vs Vector](https://medium.com/@gilangkusumajati/arraylist-vs-linkedlist-vs-vector-22e1721a66b0)
+
+  - [ArrayList vs LinkedList](https://beginnersbook.com/2013/12/difference-between-arraylist-and-linkedlist-in-java/)
 
 
-## Queue
-- [priorityqueue](https://www.callicoder.com/java-priority-queue/);
+- Queue
 
-## Map
+  - [priorityqueue](https://www.callicoder.com/java-priority-queue/);
 
-![map](https://github.com/CyC2018/CS-Notes/raw/master/notes/pics/774d756b-902a-41a3-a3fd-81ca3ef688dc.png)
+- Map
 
-- [concurrenthashmap](https://www.cnblogs.com/yangming1996/p/8031199.html)
+  ![map](https://github.com/CyC2018/CS-Notes/raw/master/notes/pics/774d756b-902a-41a3-a3fd-81ca3ef688dc.png)
 
-- [concurrenthashmap 2](https://www.baeldung.com/java-concurrent-map)
+  - [concurrenthashmap](https://www.cnblogs.com/yangming1996/p/8031199.html)
+
+  - [concurrenthashmap 2](https://www.baeldung.com/java-concurrent-map)
 
 - Array to List
 
