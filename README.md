@@ -265,3 +265,10 @@ List list = Arrays.asList(1, 2, 3);
   [thread dump 2](https://helpx.adobe.com/nz/experience-manager/kb/TakeThreadDump.html)
   
 - [CyclicBarrier vs CountDownLatch](https://www.baeldung.com/java-cyclicbarrier-countdownlatch)
+
+
+## Spring Boot
+
+- [Interview Questions 1](https://www.baeldung.com/spring-boot-interview-questions)
+
+- []
